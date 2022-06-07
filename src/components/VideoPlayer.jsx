@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 
-export const AgoraPlayer = ({ user }) => {
+export const VideoPlayer = ({ user }) => {
   const ref = useRef();
 
   useEffect(() => {
     user.videoTrack.play(ref.current);
-  }, [user]);
+  }, []);
 
   return (
     <div>
