@@ -1,4 +1,8 @@
-import React, { useEffect, useRef } from 'react';
+import React, {
+  useEffect,
+  useLayoutEffect,
+  useRef,
+} from 'react';
 
 export const VideoPlayer = ({ user }) => {
   const ref = useRef();
